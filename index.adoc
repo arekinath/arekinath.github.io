@@ -1,0 +1,25 @@
+:toc: left
+:source-highlighter: pygments
+:doctype: book
+:idprefix:
+:docinfo:
+
+# Testing
+
+This is a test!
+
+:sectnums:
+## A section
+
+This is a numbered section.
+
+.A shitty example
+[source,js,caption="Example: "]
+------------------------------------------------------------------------------
+pool.on('stateChanged', function (st) {
+    if (st === 'failed') {
+        console.error('failed to connect to any backends');
+        pool.stop();
+    }
+})
+------------------------------------------------------------------------------
