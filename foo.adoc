@@ -1,0 +1,7 @@
+:toc: left
+:source-highlighter: pygments
+:doctype: book
+:idprefix:
+:docinfo:
+
+This is foo.adoc.
